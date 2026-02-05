@@ -1,4 +1,3 @@
-import React from 'react'
 import { Code, Cpu, Database, Cloud, TestTube, GitBranch } from 'lucide-react'
 
 const SkillsWidget = () => {
