@@ -1,4 +1,3 @@
-import React from 'react'
 import { TrendingUp, Users, GitBranch, CheckCircle } from 'lucide-react'
 
 const ProjectStatsWidget = () => {
