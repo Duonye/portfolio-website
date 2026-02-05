@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 import { Code2, Award, Users, Zap, BookOpen } from 'lucide-react'
 import EducationWidget from '../components/widgets/EducationWidget'
