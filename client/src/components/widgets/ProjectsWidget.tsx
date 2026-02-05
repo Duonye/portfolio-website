@@ -33,18 +33,9 @@ const ProjectStatsWidget = () => {
       </div>
       
       <div className="space-y-3">
-        {/* <div className="flex justify-between text-sm">
-          <span className="text-gray-400">Full Stack Projects</span>
-          <span className="text-cyan-400">80%</span>
-        </div> */}
         <div className="h-2 rounded-full bg-gray-700">
           <div className="h-full rounded-full bg-gradient-to-r from-cyan-500 to-blue-500" style={{ width: '80%' }}></div>
         </div>
-        
-        {/* <div className="flex justify-between text-sm">
-          <span className="text-gray-400">Cloud Deployed</span>
-          <span className="text-cyan-400">90%</span>
-        </div> */}
         <div className="h-2 rounded-full bg-gray-700">
           <div className="h-full rounded-full bg-gradient-to-r from-blue-500 to-purple-500" style={{ width: '90%' }}></div>
         </div>
