@@ -1,4 +1,3 @@
-import React from 'react'
 import { GraduationCap, Calendar, BookOpen } from 'lucide-react'
 
 const EducationWidget = () => {
