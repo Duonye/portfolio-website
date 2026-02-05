@@ -1,4 +1,3 @@
-import React from 'react'
 import { Filter, Search, X } from 'lucide-react'
 
 interface ProjectFilterWidgetProps {
