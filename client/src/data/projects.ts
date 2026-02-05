@@ -52,7 +52,7 @@ export const projects: Project[] = [
   {
     id: 4,
     name: 'ByteMates - IT Professionals Meetup App',
-    description: 'MERN stack dating application for IT professionals with Firebase authentication.',
+    description: 'MERN stack meetup application for IT professionals with Firebase authentication.',
     period: 'Jan 2025 - Apr 2025',
     technologies: ['React', 'Express.js', 'MongoDB', 'Firebase', 'Material-UI'],
     category: 'full-stack',
