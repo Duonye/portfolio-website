@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react'
+import { useState, useMemo } from 'react'
 import { motion } from 'framer-motion'
 import { Github, Code, Users, Calendar, Star, GitBranch, Eye, Server  } from 'lucide-react'
 import { projects as sampleProjects } from '../data/projects'
