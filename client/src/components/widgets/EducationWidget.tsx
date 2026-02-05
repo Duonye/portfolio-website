@@ -31,10 +31,6 @@ const EducationWidget = () => {
         </div>
         
         <div className="space-y-3">
-          {/* <div className="flex items-center justify-between">
-            <span className="text-gray-400">Course Completion</span>
-            <span className="text-cyan-400">100%</span>
-          </div> */}
           <div className="h-2 rounded-full bg-gray-700">
             <div className="h-full rounded-full bg-gradient-to-r from-purple-500 to-pink-500 w-full"></div>
           </div>
