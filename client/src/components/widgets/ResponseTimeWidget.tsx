@@ -1,4 +1,3 @@
-import React from 'react'
 import { Clock, CheckCircle, MessageSquare, Zap } from 'lucide-react'
 
 const ResponseTimeWidget = () => {
