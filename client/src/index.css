@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Retro Academic Style */
+:root {
+  --primary-bg: #9BA9BD;
+  --section-bg: #ffffff;
+  --text-dark: #333333;
+  --accent-color: #496B87;
+  --border-color: #333333;
+}
+
+body {
+  font-family: 'Roboto', Arial, Verdana, sans-serif;
+  font-size: 100%;
+  line-height: 1.4;
+  background: var(--primary-bg);
+  color: var(--text-dark);
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Anton', sans-serif;
+  color: var(--text-dark);
+  margin-top: 0;
+}
+
+/* Sections like in the example */
+section {
+  background: var(--section-bg);
+  padding: 2em;
+  border-radius: 35px;
+  margin: 1em 0;
+  border: 2px solid var(--border-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Links */
+a {
+  color: var(--text-dark);
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #7a8da1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3a556b;
+}
+
+/* Selection */
+::selection {
+  background-color: var(--accent-color);
+  color: white;
+}
